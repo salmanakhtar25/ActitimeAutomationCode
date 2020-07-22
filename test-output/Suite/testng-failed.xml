@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="baseurl" value="http://127.0.0.1/login.do"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.actitime.scripts.CreateNewTaskTest">
+        <methods>
+          <include name="createTask"/>
+          <include name="deletetask"/>
+        </methods>
+      </class> <!-- com.actitime.scripts.CreateNewTaskTest -->
+      <class name="com.actitime.scripts.LoginTest">
+        <methods>
+          <include name="invalidlogin"/>
+          <include name="validLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.scripts.LoginTest -->
+      <class name="com.actitime.scripts.UserTest">
+        <methods>
+          <include name="createuser"/>
+          <include name="deleteuser"/>
+        </methods>
+      </class> <!-- com.actitime.scripts.UserTest -->
+      <class name="com.actitime.scripts.TaskTest">
+        <methods>
+          <include name="createproject"/>
+          <include name="Deletecustomer"/>
+          <include name="DeleteProject"/>
+          <include name="createCustomer"/>
+        </methods>
+      </class> <!-- com.actitime.scripts.TaskTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
