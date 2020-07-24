@@ -32,68 +32,12 @@
       <![CDATA[User account has been successfully deleted.]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="218327" started-at="2020-03-08T12:43:28Z" finished-at="2020-03-08T12:47:07Z">
+  <suite name="Suite" duration-ms="265848" started-at="2020-07-24T12:26:08Z" finished-at="2020-07-24T12:30:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="218327" started-at="2020-03-08T12:43:28Z" finished-at="2020-03-08T12:47:07Z">
-      <class name="com.actitime.scripts.LoginTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="preCondition" is-config="true" duration-ms="32467" started-at="2020-03-08T18:13:28Z" finished-at="2020-03-08T18:14:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://127.0.0.1/login.do]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="validLogin" duration-ms="9818" started-at="2020-03-08T18:14:01Z" finished-at="2020-03-08T18:14:11Z">
-          <reporter-output>
-            <line>
-              <![CDATA[EnterTimeTrackPage is verified]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="postCondition" is-config="true" duration-ms="4687" started-at="2020-03-08T18:14:11Z" finished-at="2020-03-08T18:14:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="preCondition" is-config="true" duration-ms="10246" started-at="2020-03-08T18:14:15Z" finished-at="2020-03-08T18:14:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://127.0.0.1/login.do]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="invalidlogin()[pri:2, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="invalidlogin" duration-ms="2352" started-at="2020-03-08T18:14:26Z" finished-at="2020-03-08T18:14:28Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Invalid login is verified]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- invalidlogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="postCondition" is-config="true" duration-ms="4814" started-at="2020-03-08T18:14:28Z" finished-at="2020-03-08T18:14:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- com.actitime.scripts.LoginTest -->
+    <test name="Test" duration-ms="265848" started-at="2020-07-24T12:26:08Z" finished-at="2020-07-24T12:30:34Z">
       <class name="com.actitime.scripts.UserTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.UserTest@4b9e13df]" name="preCondition" is-config="true" duration-ms="9217" started-at="2020-03-08T18:15:34Z" finished-at="2020-03-08T18:15:43Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.UserTest@4b9e13df]" name="preCondition" is-config="true" duration-ms="10275" started-at="2020-07-24T17:58:43Z" finished-at="2020-07-24T17:58:54Z">
           <params>
             <param index="0">
               <value>
@@ -109,18 +53,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="createuser()[pri:6, instance:com.actitime.scripts.UserTest@4b9e13df]" name="createuser" duration-ms="6612" started-at="2020-03-08T18:15:43Z" finished-at="2020-03-08T18:15:50Z">
+        <test-method status="PASS" signature="createuser()[pri:6, instance:com.actitime.scripts.UserTest@4b9e13df]" name="createuser" duration-ms="9163" started-at="2020-07-24T17:58:54Z" finished-at="2020-07-24T17:59:03Z">
           <reporter-output>
             <line>
               <![CDATA[User account has been successfully created.]]>
             </line>
           </reporter-output>
         </test-method> <!-- createuser -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.UserTest@4b9e13df]" name="postCondition" is-config="true" duration-ms="4163" started-at="2020-03-08T18:15:50Z" finished-at="2020-03-08T18:15:54Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.UserTest@4b9e13df]" name="postCondition" is-config="true" duration-ms="4482" started-at="2020-07-24T17:59:03Z" finished-at="2020-07-24T17:59:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.UserTest@4b9e13df]" name="preCondition" is-config="true" duration-ms="8542" started-at="2020-03-08T18:16:49Z" finished-at="2020-03-08T18:16:57Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.UserTest@4b9e13df]" name="preCondition" is-config="true" duration-ms="9756" started-at="2020-07-24T18:00:13Z" finished-at="2020-07-24T18:00:23Z">
           <params>
             <param index="0">
               <value>
@@ -136,20 +80,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="deleteuser()[pri:10, instance:com.actitime.scripts.UserTest@4b9e13df]" name="deleteuser" duration-ms="4962" started-at="2020-03-08T18:16:57Z" finished-at="2020-03-08T18:17:02Z">
+        <test-method status="PASS" signature="deleteuser()[pri:10, instance:com.actitime.scripts.UserTest@4b9e13df]" name="deleteuser" duration-ms="5141" started-at="2020-07-24T18:00:23Z" finished-at="2020-07-24T18:00:28Z">
           <reporter-output>
             <line>
               <![CDATA[User account has been successfully deleted.]]>
             </line>
           </reporter-output>
         </test-method> <!-- deleteuser -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.UserTest@4b9e13df]" name="postCondition" is-config="true" duration-ms="4345" started-at="2020-03-08T18:17:02Z" finished-at="2020-03-08T18:17:07Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.UserTest@4b9e13df]" name="postCondition" is-config="true" duration-ms="5737" started-at="2020-07-24T18:00:28Z" finished-at="2020-07-24T18:00:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
       </class> <!-- com.actitime.scripts.UserTest -->
-      <class name="com.actitime.scripts.TaskTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="preCondition" is-config="true" duration-ms="8722" started-at="2020-03-08T18:14:33Z" finished-at="2020-03-08T18:14:42Z">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="preCondition" is-config="true" duration-ms="30839" started-at="2020-07-24T17:56:08Z" finished-at="2020-07-24T17:56:39Z">
           <params>
             <param index="0">
               <value>
@@ -165,18 +109,74 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="createCustomer()[pri:3, instance:com.actitime.scripts.TaskTest@18be83e4]" name="createCustomer" duration-ms="7353" started-at="2020-03-08T18:14:42Z" finished-at="2020-03-08T18:14:49Z">
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="validLogin" duration-ms="13586" started-at="2020-07-24T17:56:39Z" finished-at="2020-07-24T17:56:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[EnterTimeTrackPage is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="postCondition" is-config="true" duration-ms="6068" started-at="2020-07-24T17:56:52Z" finished-at="2020-07-24T17:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="preCondition" is-config="true" duration-ms="15348" started-at="2020-07-24T17:56:58Z" finished-at="2020-07-24T17:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="invalidlogin()[pri:2, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="invalidlogin" duration-ms="2862" started-at="2020-07-24T17:57:14Z" finished-at="2020-07-24T17:57:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid login is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@8bd1b6a]" name="postCondition" is-config="true" duration-ms="4696" started-at="2020-07-24T17:57:17Z" finished-at="2020-07-24T17:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+      <class name="com.actitime.scripts.TaskTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="preCondition" is-config="true" duration-ms="10246" started-at="2020-07-24T17:57:21Z" finished-at="2020-07-24T17:57:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createCustomer()[pri:3, instance:com.actitime.scripts.TaskTest@18be83e4]" name="createCustomer" duration-ms="10559" started-at="2020-07-24T17:57:32Z" finished-at="2020-07-24T17:57:42Z">
           <reporter-output>
             <line>
               <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
             </line>
           </reporter-output>
         </test-method> <!-- createCustomer -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="postCondition" is-config="true" duration-ms="4911" started-at="2020-03-08T18:14:49Z" finished-at="2020-03-08T18:14:54Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="postCondition" is-config="true" duration-ms="4577" started-at="2020-07-24T17:57:42Z" finished-at="2020-07-24T17:57:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="preCondition" is-config="true" duration-ms="8938" started-at="2020-03-08T18:14:54Z" finished-at="2020-03-08T18:15:03Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="preCondition" is-config="true" duration-ms="10720" started-at="2020-07-24T17:57:47Z" finished-at="2020-07-24T17:57:57Z">
           <params>
             <param index="0">
               <value>
@@ -192,18 +192,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="createproject()[pri:4, instance:com.actitime.scripts.TaskTest@18be83e4]" name="createproject" duration-ms="5753" started-at="2020-03-08T18:15:03Z" finished-at="2020-03-08T18:15:08Z">
+        <test-method status="PASS" signature="createproject()[pri:4, instance:com.actitime.scripts.TaskTest@18be83e4]" name="createproject" duration-ms="10863" started-at="2020-07-24T17:57:57Z" finished-at="2020-07-24T17:58:08Z">
           <reporter-output>
             <line>
               <![CDATA[Project "Medical Software" has been successfully created.]]>
             </line>
           </reporter-output>
         </test-method> <!-- createproject -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="postCondition" is-config="true" duration-ms="4087" started-at="2020-03-08T18:15:08Z" finished-at="2020-03-08T18:15:13Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="postCondition" is-config="true" duration-ms="4599" started-at="2020-07-24T17:58:08Z" finished-at="2020-07-24T17:58:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="preCondition" is-config="true" duration-ms="9330" started-at="2020-03-08T18:16:11Z" finished-at="2020-03-08T18:16:21Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="preCondition" is-config="true" duration-ms="10090" started-at="2020-07-24T17:59:30Z" finished-at="2020-07-24T17:59:40Z">
           <params>
             <param index="0">
               <value>
@@ -219,18 +219,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DeleteProject()[pri:8, instance:com.actitime.scripts.TaskTest@18be83e4]" name="DeleteProject" duration-ms="4602" started-at="2020-03-08T18:16:21Z" finished-at="2020-03-08T18:16:25Z">
+        <test-method status="PASS" signature="DeleteProject()[pri:8, instance:com.actitime.scripts.TaskTest@18be83e4]" name="DeleteProject" duration-ms="6428" started-at="2020-07-24T17:59:40Z" finished-at="2020-07-24T17:59:46Z">
           <reporter-output>
             <line>
               <![CDATA[Project has been successfully deleted.]]>
             </line>
           </reporter-output>
         </test-method> <!-- DeleteProject -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="postCondition" is-config="true" duration-ms="3616" started-at="2020-03-08T18:16:25Z" finished-at="2020-03-08T18:16:29Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="postCondition" is-config="true" duration-ms="4748" started-at="2020-07-24T17:59:46Z" finished-at="2020-07-24T17:59:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="preCondition" is-config="true" duration-ms="8723" started-at="2020-03-08T18:16:29Z" finished-at="2020-03-08T18:16:38Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="preCondition" is-config="true" duration-ms="9457" started-at="2020-07-24T17:59:51Z" finished-at="2020-07-24T18:00:00Z">
           <params>
             <param index="0">
               <value>
@@ -246,20 +246,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="Deletecustomer()[pri:9, instance:com.actitime.scripts.TaskTest@18be83e4]" name="Deletecustomer" duration-ms="7201" started-at="2020-03-08T18:16:38Z" finished-at="2020-03-08T18:16:45Z">
+        <test-method status="PASS" signature="Deletecustomer()[pri:9, instance:com.actitime.scripts.TaskTest@18be83e4]" name="Deletecustomer" duration-ms="6789" started-at="2020-07-24T18:00:00Z" finished-at="2020-07-24T18:00:07Z">
           <reporter-output>
             <line>
               <![CDATA[Customer has been successfully deleted.]]>
             </line>
           </reporter-output>
         </test-method> <!-- Deletecustomer -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="postCondition" is-config="true" duration-ms="3905" started-at="2020-03-08T18:16:45Z" finished-at="2020-03-08T18:16:49Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@18be83e4]" name="postCondition" is-config="true" duration-ms="6025" started-at="2020-07-24T18:00:07Z" finished-at="2020-07-24T18:00:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
       </class> <!-- com.actitime.scripts.TaskTest -->
       <class name="com.actitime.scripts.CreateNewTaskTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="preCondition" is-config="true" duration-ms="9287" started-at="2020-03-08T18:15:13Z" finished-at="2020-03-08T18:15:22Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="preCondition" is-config="true" duration-ms="9887" started-at="2020-07-24T17:58:13Z" finished-at="2020-07-24T17:58:23Z">
           <params>
             <param index="0">
               <value>
@@ -275,18 +275,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="createTask()[pri:5, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="createTask" duration-ms="7205" started-at="2020-03-08T18:15:22Z" finished-at="2020-03-08T18:15:29Z">
+        <test-method status="PASS" signature="createTask()[pri:5, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="createTask" duration-ms="13442" started-at="2020-07-24T17:58:23Z" finished-at="2020-07-24T17:58:36Z">
           <reporter-output>
             <line>
               <![CDATA[1 new task was added to the customer "GE HealthCare", project "Medical Software".]]>
             </line>
           </reporter-output>
         </test-method> <!-- createTask -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="postCondition" is-config="true" duration-ms="4941" started-at="2020-03-08T18:15:29Z" finished-at="2020-03-08T18:15:34Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="postCondition" is-config="true" duration-ms="7241" started-at="2020-07-24T17:58:36Z" finished-at="2020-07-24T17:58:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="preCondition" is-config="true" duration-ms="8963" started-at="2020-03-08T18:15:54Z" finished-at="2020-03-08T18:16:03Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="preCondition" is-config="true" duration-ms="11049" started-at="2020-07-24T17:59:07Z" finished-at="2020-07-24T17:59:18Z">
           <params>
             <param index="0">
               <value>
@@ -302,14 +302,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="deletetask()[pri:7, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="deletetask" duration-ms="4517" started-at="2020-03-08T18:16:03Z" finished-at="2020-03-08T18:16:07Z">
+        <test-method status="PASS" signature="deletetask()[pri:7, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="deletetask" duration-ms="6655" started-at="2020-07-24T17:59:18Z" finished-at="2020-07-24T17:59:25Z">
           <reporter-output>
             <line>
               <![CDATA[Task has been successfully deleted.]]>
             </line>
           </reporter-output>
         </test-method> <!-- deletetask -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="postCondition" is-config="true" duration-ms="3978" started-at="2020-03-08T18:16:07Z" finished-at="2020-03-08T18:16:11Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.CreateNewTaskTest@cb5822]" name="postCondition" is-config="true" duration-ms="4461" started-at="2020-07-24T17:59:25Z" finished-at="2020-07-24T17:59:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
